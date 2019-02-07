@@ -1,0 +1,1075 @@
+"src/edit.ml" 21 724 728 "src/edit.ml" 21 724 733
+type(
+  'a Lwt.t -> ('a -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  def >>= "src/edit.ml" 24 798 798 "src/edit.ml" 1 0 -1
+)
+"src/edit.ml" 21 724 736 "src/edit.ml" 21 724 745
+type(
+  'a Lwt.t -> ('a -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"src/edit.ml" 24 798 806 "src/edit.ml" 24 798 814
+type(
+  LTerm.t -> Action.key Lwt.t
+)
+ident(
+  def read_key "src/edit.ml" 24 798 798 "src/edit.ml" 1 0 -1
+)
+"src/edit.ml" 24 798 815 "src/edit.ml" 24 798 819
+type(
+  LTerm.t
+)
+ident(
+  def term "src/edit.ml" 25 822 824 "src/edit.ml" 47 1703 1725
+)
+"src/edit.ml" 25 822 824 "src/edit.ml" 25 822 840
+type(
+  LTerm.t -> LTerm_event.t Lwt.t
+)
+ident(
+  ext_ref LTerm.read_event
+)
+"src/edit.ml" 25 822 841 "src/edit.ml" 25 822 845
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/edit.ml" 24 798 815 "src/edit.ml" 24 798 819
+)
+"src/edit.ml" 25 822 824 "src/edit.ml" 25 822 845
+call(
+  stack
+)
+type(
+  LTerm_event.t Lwt.t
+)
+"src/edit.ml" 25 822 846 "src/edit.ml" 25 822 849
+type(
+  LTerm_event.t Lwt.t ->
+  (LTerm_event.t -> Action.key Lwt.t) -> Action.key Lwt.t
+)
+ident(
+  int_ref >>= "src/edit.ml" 21 724 728 "src/edit.ml" 21 724 733
+)
+"src/edit.ml" 28 881 901 "src/edit.ml" 28 881 911
+type(
+  LTerm_key.t
+)
+ident(
+  def keyPressed "src/edit.ml" 30 926 933 "src/edit.ml" 45 1636 1663
+)
+"src/edit.ml" 28 881 885 "src/edit.ml" 28 881 911
+type(
+  LTerm_event.t
+)
+"src/edit.ml" 30 926 939 "src/edit.ml" 30 926 949
+type(
+  LTerm_key.t
+)
+ident(
+  int_ref keyPressed "src/edit.ml" 28 881 901 "src/edit.ml" 28 881 911
+)
+"src/edit.ml" 30 926 939 "src/edit.ml" 30 926 954
+type(
+  LTerm_key.code
+)
+"src/edit.ml" 31 960 969 "src/edit.ml" 31 960 985
+type(
+  LTerm_key.code
+)
+"src/edit.ml" 31 960 992 "src/edit.ml" 31 960 1002
+type(
+  Action.key -> Action.key Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/edit.ml" 31 960 1003 "src/edit.ml" 31 960 1016
+type(
+  Action.key
+)
+"src/edit.ml" 31 960 992 "src/edit.ml" 31 960 1016
+call(
+  tail
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 32 1017 1026 "src/edit.ml" 32 1017 1038
+type(
+  LTerm_key.code
+)
+"src/edit.ml" 32 1017 1049 "src/edit.ml" 32 1017 1059
+type(
+  Action.key -> Action.key Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/edit.ml" 32 1017 1060 "src/edit.ml" 32 1017 1069
+type(
+  Action.key
+)
+"src/edit.ml" 32 1017 1049 "src/edit.ml" 32 1017 1069
+call(
+  tail
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 33 1070 1079 "src/edit.ml" 33 1070 1093
+type(
+  LTerm_key.code
+)
+"src/edit.ml" 33 1070 1102 "src/edit.ml" 33 1070 1112
+type(
+  Action.key -> Action.key Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/edit.ml" 33 1070 1113 "src/edit.ml" 33 1070 1124
+type(
+  Action.key
+)
+"src/edit.ml" 33 1070 1102 "src/edit.ml" 33 1070 1124
+call(
+  tail
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 34 1125 1134 "src/edit.ml" 34 1125 1149
+type(
+  LTerm_key.code
+)
+"src/edit.ml" 34 1125 1157 "src/edit.ml" 34 1125 1167
+type(
+  Action.key -> Action.key Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/edit.ml" 34 1125 1168 "src/edit.ml" 34 1125 1180
+type(
+  Action.key
+)
+"src/edit.ml" 34 1125 1157 "src/edit.ml" 34 1125 1180
+call(
+  tail
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 35 1181 1190 "src/edit.ml" 35 1181 1204
+type(
+  LTerm_key.code
+)
+"src/edit.ml" 35 1181 1213 "src/edit.ml" 35 1181 1223
+type(
+  Action.key -> Action.key Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/edit.ml" 35 1181 1224 "src/edit.ml" 35 1181 1235
+type(
+  Action.key
+)
+"src/edit.ml" 35 1181 1213 "src/edit.ml" 35 1181 1235
+call(
+  tail
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 36 1236 1245 "src/edit.ml" 36 1236 1264
+type(
+  LTerm_key.code
+)
+"src/edit.ml" 36 1236 1268 "src/edit.ml" 36 1236 1278
+type(
+  Action.key -> Action.key Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/edit.ml" 36 1236 1279 "src/edit.ml" 36 1236 1295
+type(
+  Action.key
+)
+"src/edit.ml" 36 1236 1268 "src/edit.ml" 36 1236 1295
+call(
+  tail
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 37 1296 1305 "src/edit.ml" 37 1296 1320
+type(
+  LTerm_key.code
+)
+"src/edit.ml" 37 1296 1328 "src/edit.ml" 37 1296 1338
+type(
+  Action.key -> Action.key Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/edit.ml" 37 1296 1339 "src/edit.ml" 37 1296 1352
+type(
+  Action.key
+)
+"src/edit.ml" 37 1296 1328 "src/edit.ml" 37 1296 1352
+call(
+  tail
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 38 1353 1377 "src/edit.ml" 38 1353 1383
+type(
+  CamomileLibrary.UPervasives.uchar
+)
+ident(
+  def lTChar "src/edit.ml" 39 1387 1391 "src/edit.ml" 43 1578 1630
+)
+"src/edit.ml" 38 1353 1362 "src/edit.ml" 38 1353 1383
+type(
+  LTerm_key.code
+)
+"src/edit.ml" 39 1387 1397 "src/edit.ml" 39 1387 1407
+type(
+  LTerm_key.t
+)
+ident(
+  int_ref keyPressed "src/edit.ml" 28 881 901 "src/edit.ml" 28 881 911
+)
+"src/edit.ml" 39 1387 1397 "src/edit.ml" 39 1387 1415
+type(
+  bool
+)
+"src/edit.ml" 39 1387 1417 "src/edit.ml" 39 1387 1446
+type(
+  CamomileLibrary.UPervasives.uchar -> char
+)
+ident(
+  ext_ref CamomileLibrary.UChar.char_of
+)
+"src/edit.ml" 39 1387 1447 "src/edit.ml" 39 1387 1453
+type(
+  CamomileLibrary.UPervasives.uchar
+)
+ident(
+  int_ref lTChar "src/edit.ml" 38 1353 1377 "src/edit.ml" 38 1353 1383
+)
+"src/edit.ml" 39 1387 1417 "src/edit.ml" 39 1387 1453
+call(
+  stack
+)
+type(
+  char
+)
+"src/edit.ml" 39 1387 1397 "src/edit.ml" 39 1387 1453
+type(
+  bool * char
+)
+"src/edit.ml" 43 1578 1584 "src/edit.ml" 43 1578 1585
+type(
+  bool
+)
+"src/edit.ml" 43 1578 1590 "src/edit.ml" 43 1578 1592
+type(
+  char
+)
+ident(
+  def ch "src/edit.ml" 43 1578 1603 "src/edit.ml" 43 1578 1630
+)
+"src/edit.ml" 43 1578 1584 "src/edit.ml" 43 1578 1592
+type(
+  bool * char
+)
+"src/edit.ml" 43 1578 1603 "src/edit.ml" 43 1578 1613
+type(
+  Action.key -> Action.key Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/edit.ml" 43 1578 1627 "src/edit.ml" 43 1578 1629
+type(
+  char
+)
+ident(
+  int_ref ch "src/edit.ml" 43 1578 1590 "src/edit.ml" 43 1578 1592
+)
+"src/edit.ml" 43 1578 1615 "src/edit.ml" 43 1578 1629
+type(
+  Action.key
+)
+"src/edit.ml" 43 1578 1603 "src/edit.ml" 43 1578 1630
+call(
+  tail
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 39 1387 1391 "src/edit.ml" 43 1578 1630
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 45 1636 1645 "src/edit.ml" 45 1636 1646
+type(
+  LTerm_key.code
+)
+"src/edit.ml" 45 1636 1650 "src/edit.ml" 45 1636 1658
+type(
+  LTerm.t -> Action.key Lwt.t
+)
+ident(
+  int_ref read_key "src/edit.ml" 24 798 806 "src/edit.ml" 24 798 814
+)
+"src/edit.ml" 45 1636 1659 "src/edit.ml" 45 1636 1663
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/edit.ml" 24 798 815 "src/edit.ml" 24 798 819
+)
+"src/edit.ml" 45 1636 1650 "src/edit.ml" 45 1636 1663
+call(
+  tail
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 30 926 933 "src/edit.ml" 45 1636 1663
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 47 1703 1707 "src/edit.ml" 47 1703 1708
+type(
+  LTerm_event.t
+)
+"src/edit.ml" 47 1703 1712 "src/edit.ml" 47 1703 1720
+type(
+  LTerm.t -> Action.key Lwt.t
+)
+ident(
+  int_ref read_key "src/edit.ml" 24 798 806 "src/edit.ml" 24 798 814
+)
+"src/edit.ml" 47 1703 1721 "src/edit.ml" 47 1703 1725
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/edit.ml" 24 798 815 "src/edit.ml" 24 798 819
+)
+"src/edit.ml" 47 1703 1712 "src/edit.ml" 47 1703 1725
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 26 850 852 "src/edit.ml" 47 1703 1725
+type(
+  LTerm_event.t -> Action.key Lwt.t
+)
+"src/edit.ml" 25 822 824 "src/edit.ml" 47 1703 1725
+call(
+  tail
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 24 798 815 "src/edit.ml" 47 1703 1725
+type(
+  LTerm.t -> Action.key Lwt.t
+)
+"src/edit.ml" 50 1764 1768 "src/edit.ml" 50 1764 1772
+type(
+  string -> unit -> unit
+)
+ident(
+  def main "src/edit.ml" 111 3683 3683 "src/edit.ml" 1 0 -1
+)
+"src/edit.ml" 50 1764 1773 "src/edit.ml" 50 1764 1781
+type(
+  string
+)
+ident(
+  def filename "src/edit.ml" 50 1764 1782 "src/edit.ml" 78 2633 2652
+)
+"src/edit.ml" 50 1764 1782 "src/edit.ml" 50 1764 1784
+type(
+  unit
+)
+"src/edit.ml" 52 1846 1856 "src/edit.ml" 52 1846 1860
+type(
+  LTerm.t -> TextZipper.t -> unit Lwt.t
+)
+ident(
+  def loop "src/edit.ml" 52 1846 1848 "src/edit.ml" 78 2633 2652
+)
+"src/edit.ml" 52 1846 1861 "src/edit.ml" 52 1846 1865
+type(
+  LTerm.t
+)
+ident(
+  def term "src/edit.ml" 52 1846 1866 "src/edit.ml" 57 1981 2012
+)
+"src/edit.ml" 52 1846 1866 "src/edit.ml" 52 1846 1868
+type(
+  TextZipper.t
+)
+ident(
+  def tz "src/edit.ml" 53 1871 1875 "src/edit.ml" 57 1981 2012
+)
+"src/edit.ml" 53 1871 1875 "src/edit.ml" 53 1871 1883
+type(
+  LTerm.t -> Action.key Lwt.t
+)
+ident(
+  int_ref read_key "src/edit.ml" 24 798 806 "src/edit.ml" 24 798 814
+)
+"src/edit.ml" 53 1871 1884 "src/edit.ml" 53 1871 1888
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/edit.ml" 52 1846 1861 "src/edit.ml" 52 1846 1865
+)
+"src/edit.ml" 53 1871 1875 "src/edit.ml" 53 1871 1888
+call(
+  stack
+)
+type(
+  Action.key Lwt.t
+)
+"src/edit.ml" 54 1889 1893 "src/edit.ml" 54 1889 1896
+type(
+  Action.key Lwt.t -> (Action.key -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/edit.ml" 21 724 728 "src/edit.ml" 21 724 733
+)
+"src/edit.ml" 54 1889 1901 "src/edit.ml" 54 1889 1904
+type(
+  Action.key
+)
+ident(
+  def key "src/edit.ml" 55 1908 1912 "src/edit.ml" 57 1981 2012
+)
+"src/edit.ml" 55 1908 1918 "src/edit.ml" 55 1908 1931
+type(
+  Action.key -> TextZipper.t -> string -> TextZipper.t option
+)
+ident(
+  ext_ref Action.action
+)
+"src/edit.ml" 55 1908 1932 "src/edit.ml" 55 1908 1935
+type(
+  Action.key
+)
+ident(
+  int_ref key "src/edit.ml" 54 1889 1901 "src/edit.ml" 54 1889 1904
+)
+"src/edit.ml" 55 1908 1936 "src/edit.ml" 55 1908 1938
+type(
+  TextZipper.t
+)
+ident(
+  int_ref tz "src/edit.ml" 52 1846 1866 "src/edit.ml" 52 1846 1868
+)
+"src/edit.ml" 55 1908 1939 "src/edit.ml" 55 1908 1947
+type(
+  string
+)
+ident(
+  int_ref filename "src/edit.ml" 50 1764 1773 "src/edit.ml" 50 1764 1781
+)
+"src/edit.ml" 55 1908 1918 "src/edit.ml" 55 1908 1947
+call(
+  stack
+)
+type(
+  TextZipper.t option
+)
+"src/edit.ml" 56 1953 1959 "src/edit.ml" 56 1953 1963
+type(
+  TextZipper.t option
+)
+"src/edit.ml" 56 1953 1967 "src/edit.ml" 56 1953 1977
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/edit.ml" 56 1953 1978 "src/edit.ml" 56 1953 1980
+type(
+  unit
+)
+"src/edit.ml" 56 1953 1967 "src/edit.ml" 56 1953 1980
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 57 1981 1992 "src/edit.ml" 57 1981 1995
+type(
+  TextZipper.t
+)
+ident(
+  def tz' "src/edit.ml" 57 1981 1999 "src/edit.ml" 57 1981 2012
+)
+"src/edit.ml" 57 1981 1987 "src/edit.ml" 57 1981 1995
+type(
+  TextZipper.t option
+)
+"src/edit.ml" 57 1981 1999 "src/edit.ml" 57 1981 2003
+type(
+  LTerm.t -> TextZipper.t -> unit Lwt.t
+)
+ident(
+  int_ref loop "src/edit.ml" 52 1846 1856 "src/edit.ml" 52 1846 1860
+)
+"src/edit.ml" 57 1981 2004 "src/edit.ml" 57 1981 2008
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/edit.ml" 52 1846 1861 "src/edit.ml" 52 1846 1865
+)
+"src/edit.ml" 57 1981 2009 "src/edit.ml" 57 1981 2012
+type(
+  TextZipper.t
+)
+ident(
+  int_ref tz' "src/edit.ml" 57 1981 1992 "src/edit.ml" 57 1981 1995
+)
+"src/edit.ml" 57 1981 1999 "src/edit.ml" 57 1981 2012
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 55 1908 1912 "src/edit.ml" 57 1981 2012
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 54 1889 1901 "src/edit.ml" 57 1981 2012
+type(
+  Action.key -> unit Lwt.t
+)
+"src/edit.ml" 53 1871 1875 "src/edit.ml" 57 1981 2012
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 52 1846 1866 "src/edit.ml" 57 1981 2012
+type(
+  TextZipper.t -> unit Lwt.t
+)
+"src/edit.ml" 52 1846 1861 "src/edit.ml" 57 1981 2012
+type(
+  LTerm.t -> TextZipper.t -> unit Lwt.t
+)
+"src/edit.ml" 60 2062 2068 "src/edit.ml" 60 2062 2072
+type(
+  unit Lwt.t
+)
+ident(
+  def main "src/edit.ml" 78 2633 2635 "src/edit.ml" 78 2633 2652
+)
+"src/edit.ml" 61 2075 2079 "src/edit.ml" 61 2075 2089
+type(
+  LTerm.t Lwt.t lazy_t -> LTerm.t Lwt.t
+)
+ident(
+  ext_ref Core.Std.Lazy.force
+)
+"src/edit.ml" 61 2075 2090 "src/edit.ml" 61 2075 2102
+type(
+  LTerm.t Lwt.t lazy_t
+)
+ident(
+  ext_ref LTerm.stdout
+)
+"src/edit.ml" 61 2075 2079 "src/edit.ml" 61 2075 2102
+call(
+  stack
+)
+type(
+  LTerm.t Lwt.t
+)
+"src/edit.ml" 62 2103 2107 "src/edit.ml" 62 2103 2110
+type(
+  LTerm.t Lwt.t -> (LTerm.t -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/edit.ml" 21 724 728 "src/edit.ml" 21 724 733
+)
+"src/edit.ml" 62 2103 2115 "src/edit.ml" 62 2103 2119
+type(
+  LTerm.t
+)
+ident(
+  def term "src/edit.ml" 64 2160 2164 "src/edit.ml" 76 2577 2627
+)
+"src/edit.ml" 64 2160 2164 "src/edit.ml" 64 2160 2181
+type(
+  LTerm.t -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.hide_cursor
+)
+"src/edit.ml" 64 2160 2182 "src/edit.ml" 64 2160 2186
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/edit.ml" 62 2103 2115 "src/edit.ml" 62 2103 2119
+)
+"src/edit.ml" 64 2160 2164 "src/edit.ml" 64 2160 2186
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 64 2160 2187 "src/edit.ml" 64 2160 2190
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/edit.ml" 21 724 728 "src/edit.ml" 21 724 733
+)
+"src/edit.ml" 66 2259 2267 "src/edit.ml" 66 2259 2269
+type(
+  unit
+)
+"src/edit.ml" 66 2259 2273 "src/edit.ml" 66 2259 2293
+type(
+  LTerm.t -> LTerm.mode Lwt.t
+)
+ident(
+  ext_ref LTerm.enter_raw_mode
+)
+"src/edit.ml" 66 2259 2294 "src/edit.ml" 66 2259 2298
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/edit.ml" 62 2103 2115 "src/edit.ml" 62 2103 2119
+)
+"src/edit.ml" 66 2259 2273 "src/edit.ml" 66 2259 2298
+call(
+  stack
+)
+type(
+  LTerm.mode Lwt.t
+)
+"src/edit.ml" 66 2259 2299 "src/edit.ml" 66 2259 2302
+type(
+  LTerm.mode Lwt.t -> (LTerm.mode -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/edit.ml" 21 724 728 "src/edit.ml" 21 724 733
+)
+"src/edit.ml" 67 2303 2311 "src/edit.ml" 67 2303 2315
+type(
+  LTerm.mode
+)
+ident(
+  def mode "src/edit.ml" 69 2389 2393 "src/edit.ml" 76 2577 2627
+)
+"src/edit.ml" 69 2389 2393 "src/edit.ml" 69 2389 2405
+type(
+  (unit -> unit Lwt.t) -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.finalize
+)
+"src/edit.ml" 70 2406 2417 "src/edit.ml" 70 2406 2419
+type(
+  unit
+)
+"src/edit.ml" 71 2423 2436 "src/edit.ml" 71 2423 2437
+type(
+  TextZipper.t
+)
+ident(
+  def z "src/edit.ml" 72 2460 2469 "src/edit.ml" 73 2502 2522
+)
+"src/edit.ml" 71 2423 2440 "src/edit.ml" 71 2423 2456
+type(
+  TextZipper.t
+)
+ident(
+  ext_ref TextZipper.empty
+)
+"src/edit.ml" 72 2460 2469 "src/edit.ml" 72 2460 2498
+type(
+  TextZipper.t -> unit
+)
+ident(
+  ext_ref TextZipper.print_current_line
+)
+"src/edit.ml" 72 2460 2499 "src/edit.ml" 72 2460 2500
+type(
+  TextZipper.t
+)
+ident(
+  int_ref z "src/edit.ml" 71 2423 2436 "src/edit.ml" 71 2423 2437
+)
+"src/edit.ml" 72 2460 2469 "src/edit.ml" 72 2460 2500
+call(
+  stack
+)
+type(
+  unit
+)
+"src/edit.ml" 73 2502 2511 "src/edit.ml" 73 2502 2515
+type(
+  LTerm.t -> TextZipper.t -> unit Lwt.t
+)
+ident(
+  int_ref loop "src/edit.ml" 52 1846 1856 "src/edit.ml" 52 1846 1860
+)
+"src/edit.ml" 73 2502 2516 "src/edit.ml" 73 2502 2520
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/edit.ml" 62 2103 2115 "src/edit.ml" 62 2103 2119
+)
+"src/edit.ml" 73 2502 2521 "src/edit.ml" 73 2502 2522
+type(
+  TextZipper.t
+)
+ident(
+  int_ref z "src/edit.ml" 71 2423 2436 "src/edit.ml" 71 2423 2437
+)
+"src/edit.ml" 73 2502 2511 "src/edit.ml" 73 2502 2522
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 72 2460 2469 "src/edit.ml" 73 2502 2522
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 71 2423 2432 "src/edit.ml" 73 2502 2522
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 70 2406 2417 "src/edit.ml" 73 2502 2522
+type(
+  unit -> unit Lwt.t
+)
+"src/edit.ml" 74 2524 2535 "src/edit.ml" 74 2524 2537
+type(
+  unit
+)
+"src/edit.ml" 75 2541 2550 "src/edit.ml" 75 2541 2567
+type(
+  LTerm.t -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.show_cursor
+)
+"src/edit.ml" 75 2541 2568 "src/edit.ml" 75 2541 2572
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/edit.ml" 62 2103 2115 "src/edit.ml" 62 2103 2119
+)
+"src/edit.ml" 75 2541 2550 "src/edit.ml" 75 2541 2572
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 75 2541 2573 "src/edit.ml" 75 2541 2576
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/edit.ml" 21 724 728 "src/edit.ml" 21 724 733
+)
+"src/edit.ml" 76 2577 2590 "src/edit.ml" 76 2577 2592
+type(
+  unit
+)
+"src/edit.ml" 76 2577 2596 "src/edit.ml" 76 2577 2616
+type(
+  LTerm.t -> LTerm.mode -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.leave_raw_mode
+)
+"src/edit.ml" 76 2577 2617 "src/edit.ml" 76 2577 2621
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/edit.ml" 62 2103 2115 "src/edit.ml" 62 2103 2119
+)
+"src/edit.ml" 76 2577 2622 "src/edit.ml" 76 2577 2626
+type(
+  LTerm.mode
+)
+ident(
+  int_ref mode "src/edit.ml" 67 2303 2311 "src/edit.ml" 67 2303 2315
+)
+"src/edit.ml" 76 2577 2596 "src/edit.ml" 76 2577 2626
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 76 2577 2590 "src/edit.ml" 76 2577 2626
+type(
+  unit -> unit Lwt.t
+)
+"src/edit.ml" 75 2541 2550 "src/edit.ml" 76 2577 2626
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 74 2524 2535 "src/edit.ml" 76 2577 2626
+type(
+  unit -> unit Lwt.t
+)
+"src/edit.ml" 69 2389 2393 "src/edit.ml" 76 2577 2627
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 67 2303 2311 "src/edit.ml" 76 2577 2627
+type(
+  LTerm.mode -> unit Lwt.t
+)
+"src/edit.ml" 66 2259 2273 "src/edit.ml" 76 2577 2627
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 66 2259 2267 "src/edit.ml" 76 2577 2627
+type(
+  unit -> unit Lwt.t
+)
+"src/edit.ml" 64 2160 2164 "src/edit.ml" 76 2577 2627
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 62 2103 2115 "src/edit.ml" 76 2577 2627
+type(
+  LTerm.t -> unit Lwt.t
+)
+"src/edit.ml" 61 2075 2079 "src/edit.ml" 76 2577 2627
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/edit.ml" 78 2633 2635 "src/edit.ml" 78 2633 2647
+type(
+  unit Lwt.t -> unit
+)
+ident(
+  ext_ref Lwt_main.run
+)
+"src/edit.ml" 78 2633 2648 "src/edit.ml" 78 2633 2652
+type(
+  unit Lwt.t
+)
+ident(
+  int_ref main "src/edit.ml" 60 2062 2068 "src/edit.ml" 60 2062 2072
+)
+"src/edit.ml" 78 2633 2635 "src/edit.ml" 78 2633 2652
+call(
+  tail
+)
+type(
+  unit
+)
+"src/edit.ml" 60 2062 2064 "src/edit.ml" 78 2633 2652
+type(
+  unit
+)
+"src/edit.ml" 52 1846 1848 "src/edit.ml" 78 2633 2652
+type(
+  unit
+)
+"src/edit.ml" 50 1764 1782 "src/edit.ml" 78 2633 2652
+type(
+  unit -> unit
+)
+"src/edit.ml" 50 1764 1773 "src/edit.ml" 78 2633 2652
+type(
+  string -> unit -> unit
+)
+"src/edit.ml" 111 3683 3687 "src/edit.ml" 111 3683 3694
+type(
+  Command.t
+)
+ident(
+  def command "src/edit.ml" 118 3964 3964 "src/edit.ml" 1 0 -1
+)
+"src/edit.ml" 112 3697 3699 "src/edit.ml" 112 3697 3712
+type(
+  (string -> unit -> unit, unit) Command.basic_command
+)
+ident(
+  ext_ref Core.Std.Command.basic
+)
+"src/edit.ml" 113 3713 3726 "src/edit.ml" 113 3713 3772
+type(
+  string
+)
+"src/edit.ml" 114 3773 3790 "src/edit.ml" 114 3773 3792
+type(
+  unit
+)
+"src/edit.ml" 114 3773 3796 "src/edit.ml" 114 3773 3823
+type(
+  string
+)
+"src/edit.ml" 114 3773 3790 "src/edit.ml" 114 3773 3823
+type(
+  unit -> string
+)
+"src/edit.ml" 115 3825 3843 "src/edit.ml" 115 3825 3848
+type(
+  (string -> unit -> unit, string -> unit -> unit) t
+)
+ident(
+  ext_ref Core.Std.Command.Spec.empty
+)
+"src/edit.ml" 115 3825 3849 "src/edit.ml" 115 3825 3851
+type(
+  (string -> unit -> unit, string -> unit -> unit) t ->
+  string param -> (string -> unit -> unit, unit -> unit) t
+)
+ident(
+  ext_ref Core.Std.Command.Spec.( +> )
+)
+"src/edit.ml" 115 3825 3852 "src/edit.ml" 115 3825 3856
+type(
+  string anons -> string param
+)
+ident(
+  ext_ref Core.Std.Command.Spec.anon
+)
+"src/edit.ml" 115 3825 3858 "src/edit.ml" 115 3825 3868
+type(
+  string
+)
+"src/edit.ml" 115 3825 3869 "src/edit.ml" 115 3825 3871
+type(
+  string -> string Arg_type.t -> string anons
+)
+ident(
+  ext_ref Core.Std.Command.Spec.( %: )
+)
+"src/edit.ml" 115 3825 3872 "src/edit.ml" 115 3825 3878
+type(
+  string Arg_type.t
+)
+ident(
+  ext_ref Core.Std.Command.Spec.string
+)
+"src/edit.ml" 115 3825 3858 "src/edit.ml" 115 3825 3878
+call(
+  stack
+)
+type(
+  string anons
+)
+"src/edit.ml" 115 3825 3852 "src/edit.ml" 115 3825 3879
+call(
+  stack
+)
+type(
+  string param
+)
+"src/edit.ml" 115 3825 3843 "src/edit.ml" 115 3825 3879
+call(
+  stack
+)
+type(
+  (string -> unit -> unit, unit -> unit) t
+)
+"src/edit.ml" 115 3825 3881 "src/edit.ml" 115 3825 3885
+type(
+  string -> unit -> unit
+)
+ident(
+  int_ref main "src/edit.ml" 50 1764 1768 "src/edit.ml" 50 1764 1772
+)
+"src/edit.ml" 112 3697 3699 "src/edit.ml" 115 3825 3885
+call(
+  stack
+)
+type(
+  Command.t
+)
+"src/edit.ml" 118 3964 3968 "src/edit.ml" 118 3964 3970
+type(
+  unit
+)
+"src/edit.ml" 118 3964 3973 "src/edit.ml" 118 3964 3984
+type(
+  ?version:string ->
+  ?build_info:string ->
+  ?argv:string list ->
+  ?extend:(string list -> string list) -> Command.t -> unit
+)
+ident(
+  ext_ref Core.Std.Command.run
+)
+"src/edit.ml" 118 3964 3994 "src/edit.ml" 118 3964 4000
+type(
+  string
+)
+"src/edit.ml" 118 3964 4013 "src/edit.ml" 118 3964 4018
+type(
+  string
+)
+"src/edit.ml" 118 3964 4019 "src/edit.ml" 118 3964 4026
+type(
+  Command.t
+)
+ident(
+  int_ref command "src/edit.ml" 111 3683 3687 "src/edit.ml" 111 3683 3694
+)
+"src/edit.ml" 118 3964 3973 "src/edit.ml" 118 3964 4026
+call(
+  stack
+)
+type(
+  unit
+)

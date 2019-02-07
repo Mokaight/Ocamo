@@ -1,0 +1,3 @@
+<src/**>: include
+<src/**>: package(core)
+<src/**.{ml,byte,native}> : package(core)
